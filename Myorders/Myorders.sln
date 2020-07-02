@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOrders.Api", "MyOrders.Api\MyOrders.Api.csproj", "{9E487ABA-5A54-4D1F-A61E-06C808D2704B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOrders.Infra", "MyOrders.Infra\MyOrders.Infra.csproj", "{00583D00-0CB5-4CCE-BCCA-8B1005CFB679}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{9E487ABA-5A54-4D1F-A61E-06C808D2704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E487ABA-5A54-4D1F-A61E-06C808D2704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E487ABA-5A54-4D1F-A61E-06C808D2704B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00583D00-0CB5-4CCE-BCCA-8B1005CFB679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00583D00-0CB5-4CCE-BCCA-8B1005CFB679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00583D00-0CB5-4CCE-BCCA-8B1005CFB679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00583D00-0CB5-4CCE-BCCA-8B1005CFB679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9E487ABA-5A54-4D1F-A61E-06C808D2704B} = {69BA25B3-D240-44C0-95A2-A3DF0E2353C3}
+		{00583D00-0CB5-4CCE-BCCA-8B1005CFB679} = {AC9E94F3-1463-420A-809E-DE9DEAB546AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7E4F4DD-DF31-431F-BE08-3218A4B085C4}
