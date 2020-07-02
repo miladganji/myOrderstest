@@ -11,9 +11,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{69BA25B3-D240-44C0-95A2-A3DF0E2353C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOrders.Api", "MyOrders.Api\MyOrders.Api.csproj", "{9E487ABA-5A54-4D1F-A61E-06C808D2704B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E487ABA-5A54-4D1F-A61E-06C808D2704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E487ABA-5A54-4D1F-A61E-06C808D2704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E487ABA-5A54-4D1F-A61E-06C808D2704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E487ABA-5A54-4D1F-A61E-06C808D2704B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E487ABA-5A54-4D1F-A61E-06C808D2704B} = {69BA25B3-D240-44C0-95A2-A3DF0E2353C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7E4F4DD-DF31-431F-BE08-3218A4B085C4}
